@@ -1,0 +1,510 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F7378F75-8F0C-4427-837B-087BDDB1FF31}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsFormsApplication1</RootNamespace>
+    <AssemblyName>WindowsFormsApplication1</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form7.Designer.cs">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form8.Designer.cs">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form9.Designer.cs">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GolbalHelper.cs" />
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="OfficeSuppliesManagementSystemDatabaseDataSetBumenxin.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSetBumenxin.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SqlCommandcmd.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form7.resx">
+      <DependentUpon>Form7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form8.resx">
+      <DependentUpon>Form8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form9.resx">
+      <DependentUpon>Form9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet1.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet1.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet10.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet10.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet11.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet11.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet12.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet12.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet13.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet13.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet14.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet14.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet15.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet15.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet2.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet2.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet3.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet3.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet4.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet4.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet5.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet5.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet6.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet6.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet7.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet7.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet8.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet8.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet9.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSet9.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSetBumenxin.xsc">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSetBumenxin.xsd</DependentUpon>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSetBumenxin.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>OfficeSuppliesManagementSystemDatabaseDataSetBumenxin.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="OfficeSuppliesManagementSystemDatabaseDataSetBumenxin.xss">
+      <DependentUpon>OfficeSuppliesManagementSystemDatabaseDataSetBumenxin.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6a2ef4b3jw1f522ww6ym9j21kw16ob29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122136197.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122152069.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122205965.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122221029.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122237637.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122720517.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122730369.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122749601.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122802585.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122818265.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122840533.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122853641.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627122859553.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123000438.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123027846.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123117397.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123229165.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123245409.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123309179.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123433932.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123606018.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123654594.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360截图20160627123750770.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
